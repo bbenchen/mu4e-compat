@@ -93,6 +93,8 @@
          (mu4e~compose-set-friendly-buffer-name . mu4e--compose-set-friendly-buffer-name)
          (mu4e~compose-remap-faces . mu4e--compose-remap-faces)
          (mu4e~compose-buffer-max-name-length . mu4e--compose-buffer-max-name-length)
-         (mu4e-send-harden-newlines . mu4e--send-harden-newlines))))
+         (mu4e-send-harden-newlines . mu4e--send-harden-newlines))
+        ("1.14"
+         (mu4e-personal-addresses . mu4e--personal-addresses))))
 
 ;;; mu4e-compat-1.10.el ends here

@@ -1,9 +1,6 @@
-;;; mu4e-compat-1.0.el -*- lexical-binding: t; -*-
+;;; mu4e-compat-1.14.el -*- lexical-binding: t; -*-
 
 (setq mu4e-compat--needlessly-breaking-renames-sofar
-      '())
-
-(setq mu4e-compat--needlessly-breaking-renames-future
       '(("1.8"
          (mu4e~mark-find-headers-buffer . mu4e--mark-find-headers-buffer)
          (mu4e~update-name . mu4e--update-name)
@@ -99,4 +96,7 @@
         ("1.14"
          (mu4e-personal-addresses . mu4e--personal-addresses))))
 
-;;; mu4e-compat-1.0.el ends here
+(setq mu4e-compat--needlessly-breaking-renames-future
+      '())
+
+;;; mu4e-compat-1.14.el ends here

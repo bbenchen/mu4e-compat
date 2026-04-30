@@ -95,6 +95,7 @@
          (mu4e-icalendar-reply . mu4e--icalendar-reply))))
 
 (setq mu4e-compat--needlessly-breaking-renames-future
-      '())
+      '(("1.14"
+         (mu4e-personal-addresses . mu4e--personal-addresses))))
 
 ;;; mu4e-compat-1.12.el ends here

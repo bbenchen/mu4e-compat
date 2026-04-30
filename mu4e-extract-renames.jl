@@ -6,7 +6,8 @@ const mu4e_versions =
     [v"1.0" => "v1.0",
      v"1.8" => "v1.8.15",
      v"1.10" => "v1.10.8",
-     v"1.12" => "v1.12.3"]
+     v"1.12" => "v1.12.3",
+     v"1.14" => "v1.14.1"]
 
 const mu_dir = joinpath(tempdir(), "jl_mu_symbol_extract")
 

@@ -43,7 +43,9 @@
   (load "mu4e-compat-1.10"))
  ((equal mu4e-compat-mu-version '(1 12))
   (load "mu4e-compat-1.12"))
- ((version-list-< '(1 12) mu4e-compat-mu-version)
+ ((equal mu4e-compat-mu-version '(1 14))
+  (load "mu4e-compat-1.14"))
+ ((version-list-< '(1 14) mu4e-compat-mu-version)
   (user-error "Your mu4e version is newer than mu4e-compat supports")))
 
 (defun mu4e-compat-define-aliases-backwards (&optional oldest)
